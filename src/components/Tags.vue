@@ -15,20 +15,6 @@
         </span>
       </li>
     </ul>
-    <!-- <div class="tags-close-box">
-      <el-dropdown @command="handleTags">
-        <el-button size="mini" type="primary">
-          标签选项
-          <el-icon><ArrowDown /></el-icon>
-        </el-button>
-        <template #dropdown>
-          <el-dropdown-menu size="small" split-button type="primary">
-            <el-dropdown-item command="other">关闭其他</el-dropdown-item>
-            <el-dropdown-item command="all">关闭所有</el-dropdown-item>
-          </el-dropdown-menu>
-        </template>
-      </el-dropdown>
-    </div> -->
   </div>
 </template>
 
@@ -162,19 +148,5 @@ export default {
 
 .tags-li.active .tags-li-title {
   color: #fff;
-}
-
-.tags-close-box {
-  position: absolute;
-  right: 0;
-  top: 0;
-  box-sizing: border-box;
-  padding-top: 1px;
-  text-align: center;
-  width: 110px;
-  height: 30px;
-  background: #fff;
-  box-shadow: -3px 0 15px 3px rgba(0, 0, 0, 0.1);
-  z-index: 10;
 }
 </style>
